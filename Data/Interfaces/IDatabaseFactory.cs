@@ -8,7 +8,7 @@
     #endregion
 
     /// <summary>
-    /// Factory Klasse zur Instanzierung des DB Kontexts
+    /// Factory that holds the dbcontext instance
     /// </summary>
     public interface IDatabaseFactory : IDisposable
     {
