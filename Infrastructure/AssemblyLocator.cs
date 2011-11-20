@@ -13,6 +13,10 @@ namespace Kreissl.Showcase.Infrastructure
 
     public static class AssemblyLocator
     {
+        /// <summary>
+        /// loads all assemblies into membory
+        /// </summary>
+        /// <returns>List of assemblies</returns>
         public static IEnumerable<Assembly> LoadAll()
         {
             string binFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bin");
